@@ -1,0 +1,38 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taiseen/node-chat-app.git"
+  },
+  "author": "taiseen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taiseen/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/taiseen/node-chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
