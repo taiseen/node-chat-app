@@ -1,4 +1,6 @@
-21 - May - 2022
+<img src="./public/readme.png" style='width:180px' align="right" />
+
+> 21 - May - 2022 
 
 ## Chat App | [Live Link](www)
 
@@ -29,10 +31,10 @@
 ## Learning Context:
 |No| Context learn by doing this project...                             | 
 |--|--------------------------------------------------------------------|
-| 1| Dynamic Routing                                                    |
+| 1| Scalable Folder Structure                                          |
 
 
-Learning by inspired from[.](https://youtu.be/xihtoTIy-ms)
+
 
 <!-- 
 yarn add express dotenv ejs mongoose multer cookie-parser express-validator jsonwebtoken bcrypt http-errors 

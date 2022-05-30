@@ -3,21 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon app.js",
-    "prod": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taiseen/node-chat-app.git"
+    "start": "nodemon app.js"
   },
   "author": "taiseen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/taiseen/node-chat-app/issues"
-  },
-  "homepage": "https://github.com/taiseen/node-chat-app#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.6",
