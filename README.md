@@ -2,11 +2,9 @@
 
 > 21 - May - 2022 
 
-## Chat App | [Live Link](www)
+# Chat App | [Live Link][heroku]
 
-# Node-Js
-
-* Full-Stack Chat-Application | Node.js Project
+## Full-Stack Chat-Application | `Node.js` Project
 
 
 # Yarn | Needful Dependencies
@@ -35,7 +33,7 @@
 
 
 
-
+[heroku]: www
 <!-- 
 yarn add express dotenv ejs mongoose multer cookie-parser express-validator jsonwebtoken bcrypt http-errors 
 -->

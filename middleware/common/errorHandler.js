@@ -7,7 +7,7 @@ const notFoundHandler = (req, res, next) => {
 }
 
 
-// default error handler
+// default error handler can response HTML + JSON
 const errorHandler = (err, req, res, next) => {
 
     res.locals.error = process.env.NODE_ENV === "development"
@@ -17,7 +17,7 @@ const errorHandler = (err, req, res, next) => {
     res.status(err.status || 500);
 
     if (res.locals.html) {
-        // Response for HTML 
+        // Response for HTML + give view file name (.ejs)
         res.render("error", { title: "Error page" });
     } else {
         // Response for JSON
